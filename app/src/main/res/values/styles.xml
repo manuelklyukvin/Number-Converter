@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tv_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tv_error" parent="tv_text">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="et">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/darkGray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textFontWeight">700</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingHorizontal">10dp</item>
+    </style>
+    <style name="ll_base_container">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="ll_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>
